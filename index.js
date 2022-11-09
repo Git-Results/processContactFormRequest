@@ -17,6 +17,7 @@ exports.handler = (event, context, callback) => {
     });
 };
 
+//I updated this thang
 function sendEmail (event, done) {
     console.log(event)
     var data = JSON.parse(event.body);
